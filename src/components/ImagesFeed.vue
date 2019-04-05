@@ -1,6 +1,6 @@
 <template  lang="pug">
   .feed
-    .test(v-scroll.passive="handleScroll")
+    .test(v-scroll.passive="handleScroll" v-if="images.length != 0")
       render-images(:images="images")
 </template>
 
@@ -21,7 +21,7 @@ export default {
   components: {
     RenderImages
   },
-  mounted () {
+  created () {
 
     this.loadMoreImages();
   },
