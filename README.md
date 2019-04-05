@@ -1,4 +1,7 @@
-# meduza-news
+# vue-endless-scroll
+
+Endless scrolling with Vue  
+Photos will be downloaded from Instagram  
 
 ## Project setup
 ```
@@ -13,11 +16,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
 ```
 
 ### Lints and fixes files

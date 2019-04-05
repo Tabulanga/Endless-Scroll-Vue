@@ -1,17 +1,15 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+  #app
+    images-feed
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ImagesFeed from './components/ImagesFeed'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    ImagesFeed
   }
 }
 </script>
@@ -23,6 +21,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 10px;
 }
 </style>
